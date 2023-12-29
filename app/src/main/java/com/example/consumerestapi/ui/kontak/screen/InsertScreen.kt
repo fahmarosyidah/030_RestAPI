@@ -1,4 +1,4 @@
-package com.example.consumerestapi.ui.home.screen
+package com.example.consumerestapi.ui.kontak.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -25,9 +25,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.consumerestapi.navigation.DestinasiNavigasi
 import com.example.consumerestapi.ui.PenyediaViewModel
 import com.example.consumerestapi.ui.TopAppBarKontak
-import com.example.consumerestapi.ui.home.viewmodel.InsertUiEvent
-import com.example.consumerestapi.ui.home.viewmodel.InsertUiState
-import com.example.consumerestapi.ui.home.viewmodel.InsertViewModel
+import com.example.consumerestapi.ui.kontak.viewmodel.InsertUiEvent
+import com.example.consumerestapi.ui.kontak.viewmodel.InsertUiState
+import com.example.consumerestapi.ui.kontak.viewmodel.InsertViewModel
 import kotlinx.coroutines.launch
 
 object DestinasiEntry : DestinasiNavigasi {
